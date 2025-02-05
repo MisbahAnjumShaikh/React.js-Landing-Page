@@ -47,12 +47,12 @@ const Navbar = () => {
                 </svg>
               </button>
             </div>
-            <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-              <div className="flex shrink-0 items-center text-2xl font-semibold rounded-md hover:bg-gray-300 px-4 py-2">
+            <div className="flex flex-1 items-center sm:items-stretch">
+              <div className="flex shrink-0 items-center text-2xl font-semibold rounded-md hover:bg-gray-300 px-4 py-2 sm:justify-start cursor-pointer">
                 FaazizPRO
               </div>
-              <div className="hidden sm:ml-6 sm:block">
-                <div className="flex space-x-4 text-black text-base">
+              <div className="hidden sm:ml-6 sm:block w-full">
+                <div className="flex space-x-4 text-black text-base justify-center">
                   <a
                     href="#"
                     className="rounded-md px-3 py-2 font-medium hover:bg-gray-200"
@@ -107,8 +107,8 @@ const Navbar = () => {
                     <span className="sr-only">Open user menu</span>
                   </button>
                   <span className="flex items-baseline">
-                    <a className="text-lime-500 font-bold m-5">Login</a>
-                    <button className="bg-lime-500 text-white font-bold px-2 rounded-md flex items-center gap-2 h-10">
+                    <a className="text-lime-500 font-bold m-5 cursor-pointer">Login</a>
+                    <button className="bg-lime-500 text-white font-bold px-2 rounded-md flex items-center gap-2 h-10 cursor-pointer">
                       Join Us <FaArrowRight className="size-4" />
                     </button>
                   </span>
